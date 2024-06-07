@@ -1,41 +1,89 @@
+
+
 body{
-    background-color: grey;
     font-size: 19px;
-    color: brown;
+    color: black;
     font-family: "Jacquard 12", system-ui;
+
 }
+
+.titulo{
+    text-align: center;
+}
+
+.indice{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
 
 h1{
     color:#a5bd08;
 
 }
 
+
 h2{
     color:darkgreen;
 
 }
 
-#titulo-cert{
-    color:rgb(81, 8, 8);
+.container {
+    text-align: center;
+}
+img {
+    margin: auto;
+    display: block;
+    border-radius: 300px;
 }
 
 .estilo-seccion{
     background-color: beige;
     text-align: center;
     font-size: medium;
-    border-radius: 10px;
     padding: 5px;
     margin: 20px;
-    border: 3px black solid;
 }
 
 .estilo-seccion ul li{
     list-style: none;
 }
 
-img{
-    vertical-align: middle;
+.footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 
+.profile-description{
+    text-align: center;
+    font-size: medium;
+}
 
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.footer .social-icons {
+    margin: 10px 0;
+}
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}

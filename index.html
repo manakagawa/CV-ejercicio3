@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Sol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>mnakagawa</title>
 </head>
+
 <body>
-    <!--etiquetas semanticas-->
     <header>
-        <h1>Nombre: Sol Nakagawa</h1>
-        <nav> <!--barra de navegación-->
-            <h3>Indice</h3>
-            <!--Listas-->
+        <div class="titulo">
+        <h1>¿Ya me conoces?</h1>
+        </div>
+        <nav>
+            <div class="indice">
             <ul>
                 <li><a href="educación"></a>Educación</li>
                 <li><a href="exp-laboral"></a>Experiencia Laboral</li>
                 <li><a href="cert"></a>Certificaciones</li>
                 <li><a href="idiomas"></a>Idiomas</li>
                 <li><a href="habilidades"></a>Habilidades</li>
+            </div>
             </ul>
         </nav>
     </header>
 
     <section>
+        <div class="container">
+        <img src="image/yo.jpg" alt="así me veo">
+            <P class="profile-description">Soy diseñadora gráfica y he explorado diferentes facetas del diseño, he tenido oportunidad de hacer diseño de carteles para festivales de música, para eventos públicos, producciones teatrales e instituciones bancarias.
+                El diseño es parte fundamental de mi vida profesional pero también me he desarrollado como Community Manager dentro del ramo de Influencer Marketing, Project Manager en el sector bancario y Event Planner organizando bazares.
+                Busco seguir desarrollando mis habilidades como Project Manager, tomando en cuenta que siendo diseñadora gráfica y mi afinidad por el trabajo en equipo me ayuda a generar un resultado exitoso. <em>deserunt</em>!</P>
+        </div>
+        </section>
 
-        <img class="image-profile" src="https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic_1468962.webp?w=768&h=432" alt="foto de gatito">
-            
-            <!--imagen desde ordenador-->
-            <P class="profile-description"><strong>Este es un parrafo</strong>, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi dicta, harum dolores provident repellat incidunt? Praesentium tenetur repellat, eveniet atque quisquam pariatur placeat est dolore hic tempora voluptas fuga <em>deserunt</em>!</P>
-    </section>
-
-        <section id="educacion" class="estilo-seccion">
+    <section id="educacion" class="estilo-seccion">
             <h2>Educación</h2>
             <h4>Nombre de la Universidad</h4>
             <ul>
                 <li>Promedio</li>
                 <li>Club</li>
             </ul>
-        </section>
+    </section>
 
         <section id="exp-laboral" class="estilo-seccion">
             <h2>Experiencia Laboral</h2>
@@ -81,22 +82,13 @@
 
         <!--PIE DE PAGINA-->
 
-        <footer>
-            <p><strong>Contacto:</strong></p>
-            <ul>
-
-            <a href="https://www.behance.net/marisolnakagawa" target="_blank">BEHANCE</a>
-
-            <br>           
-
-            <a href="https://www.facebook.com/MNakagawaG/" target="_blank">FACEBOOK</a>
-
-            <br>        
-
-            <a href="https://www.linkedin.com/in/marisol-nakagawa-gil-3279b9145/" target="_blank">LINKEDIN</a>
-
-            <br>  
-            </ul>
+        <footer class="footer">
+            <p>¿YA ME SIGUES?</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/MNakagawaG" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/la_nakagawa" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/marisol-nakagawa-gil-3279b9145/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </footer>
-</body>    
+    </body>
 </html>
